@@ -22,9 +22,5 @@
     "noUncheckedSideEffectImports": true,
     "noImplicitAny": false
   },
-  "include": [
-    "src",
-    "src/pages/contact-us/main.tsx",
-    "src/pages/contact-us/App.tsx"
-  ]
+  "include": ["src"]
 }

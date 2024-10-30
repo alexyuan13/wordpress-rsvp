@@ -11,6 +11,9 @@ export default defineConfig({
   define: {
     "process.env": {},
   },
+  server: {
+    open: "/src/pages/contact-us/index.html",
+  },
   build: {
     rollupOptions: {
       input: {

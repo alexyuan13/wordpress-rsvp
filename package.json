@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev:join": "vite -c src/pages/join-form-widget/vite.config.ts",
+    "dev:contact": "vite -c src/pages/contact-us/vite.config.ts",
+    "build:join": "tsc -b && vite build -c src/pages/join-form-widget/vite.config.ts",
+    "build:contact": "tsc -b && vite build -c src/pages/contact-us/vite.config.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

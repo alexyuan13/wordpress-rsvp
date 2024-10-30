@@ -19,5 +19,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "src/pages/contact-us/vite.config.ts",
+    "src/pages/join-form-widget/vite.config.ts"
+  ]
 }
