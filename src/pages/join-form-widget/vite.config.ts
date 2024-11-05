@@ -8,6 +8,9 @@ export default defineConfig({
       jsxImportSource: "@emotion/react",
     }),
   ],
+  server: {
+    open: "/src/pages/join-form-widget/index.html",
+  },
   define: {
     "process.env": {},
   },

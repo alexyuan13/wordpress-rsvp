@@ -145,6 +145,7 @@ export default function JoinFormWidget() {
       productUrl.searchParams.set("gender", JSON.stringify(gender));
       productUrl.searchParams.set("seekingGender", JSON.stringify(lookingFor));
       productUrl.searchParams.set("location", JSON.stringify(location));
+      productUrl.searchParams.set("join", "true");
       window.open(productUrl);
     }
   };
@@ -255,7 +256,8 @@ const JoinFormWrapper = styled.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 415px;
+  align-items: center;
+  width: 100%;
   min-height: 410px;
   background-color: #ffffff;
   padding: 30px 0 5px;

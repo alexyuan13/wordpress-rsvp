@@ -221,9 +221,9 @@ export default function ContactUs() {
             </div>
           </InputContainer>
           <InputContainer height="206" width={[349, 770]}>
-            <label htmlFor="body">
+            <MessageLabel htmlFor="body">
               <Text>Message</Text>
-            </label>
+            </MessageLabel>
             <Textarea
               id="body"
               value={inputState.body}
@@ -304,6 +304,12 @@ const Text = styled.div`
 const SubText = styled.p`
   font-size: 14px;
 `;
+
+const MessageLabel = styled.label(
+  mq({
+    display: ["none", "block"],
+  })
+);
 
 const Textarea = styled.textarea(
   mq({
