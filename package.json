@@ -6,8 +6,10 @@
   "scripts": {
     "dev:join": "vite -c src/pages/join-form-widget/vite.config.ts",
     "dev:contact": "vite -c src/pages/contact-us/vite.config.ts",
+    "dev:event-subscribe": "vite -c src/pages/event-subscribe/vite.config.ts",
     "build:join": "tsc -b && vite build -c src/pages/join-form-widget/vite.config.ts",
     "build:contact": "tsc -b && vite build -c src/pages/contact-us/vite.config.ts",
+    "build:event-subscribe": "tsc -b && vite build -c src/pages/event-subscribe/vite.config.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

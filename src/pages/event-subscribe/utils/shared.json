@@ -1,0 +1,959 @@
+{
+  "activitiesLabel": "Activities & Hobbies",
+  "addEditCaptionButton": "Add/Edit Caption",
+  "bodyTypes": [
+    {
+      "type": "slim",
+      "string": "Slim"
+    },
+    {
+      "type": "athletic",
+      "string": "Athletic"
+    },
+    {
+      "type": "average",
+      "string": "Average"
+    },
+    {
+      "type": "overweight",
+      "string": "A bit overweight"
+    },
+    {
+      "type": "large",
+      "string": "Large-ish"
+    }
+  ],
+  "countryCodeList": [
+    {
+      "label": "AU",
+      "value": "61"
+    },
+    {
+      "label": "NZ",
+      "value": "64"
+    }
+  ],
+  "deleteButton": "Delete",
+  "displayNameTooltip": "Your display name must be at least 4 characters long and should not be longer than 30.",
+  "displayNameValidationError": "Your display name can only contain letters, numbers and space, and must start with a letter.",
+  "dietTypes": [
+    {
+      "type": "none",
+      "string": "No special diet"
+    },
+    {
+      "type": "pescatarian",
+      "string": "Pescatarian"
+    },
+    {
+      "type": "vegetarian",
+      "string": "Vegetarian"
+    },
+    {
+      "type": "vegan",
+      "string": "Vegan"
+    },
+    {
+      "type": "other",
+      "string": "Other special diet"
+    }
+  ],
+  "drinkTypes": [
+    {
+      "type": "none",
+      "string": "Non-drinker"
+    },
+    {
+      "type": "occasional",
+      "string": "Occasional/Social drinker"
+    },
+    {
+      "type": "regular",
+      "string": "Often drinker"
+    }
+  ],
+  "educationTypes": [
+    {
+      "type": "highschool",
+      "string": "High school"
+    },
+    {
+      "type": "apprentice",
+      "string": "Apprentice"
+    },
+    {
+      "type": "college",
+      "string": "Some college"
+    },
+    {
+      "type": "diploma",
+      "string": "Diploma"
+    },
+    {
+      "type": "degree",
+      "string": "Degree"
+    },
+    {
+      "type": "postgrad",
+      "string": "Post graduate"
+    }
+  ],
+  "emailAlreadyUsed": "The email address you have provided already belongs to an existing account.",
+  "emailValidation": "Please enter a valid email.",
+  "emailValidationText": "Please enter a valid email.",
+  "emailSendFailed": "There is an error sending verification code to your email address. Please contact support for assistance.",
+  "ethnicityTypes": [
+    {
+      "type": "caucasian",
+      "string": "White / Caucasian"
+    },
+    {
+      "type": "latino",
+      "string": "Hispanic / Latino"
+    },
+    {
+      "type": "black",
+      "string": "Black / African"
+    },
+    {
+      "type": "middle_eastern",
+      "string": "Middle Eastern"
+    },
+    {
+      "type": "asian",
+      "string": "Asian"
+    },
+    {
+      "type": "indian",
+      "string": "Indian"
+    },
+    {
+      "type": "aboriginal",
+      "string": "Aboriginal / TSI"
+    },
+    {
+      "type": "islander",
+      "string": "Other Islander"
+    },
+    {
+      "type": "mixed",
+      "string": "Mixed Race"
+    },
+    {
+      "type": "maori",
+      "string": "Maori"
+    },
+    {
+      "type": "other",
+      "string": "Other background"
+    }
+  ],
+  "exerciseTypes": [
+    {
+      "type": "never",
+      "string": "Never"
+    },
+    {
+      "type": "once_week",
+      "string": "1-2 times a week"
+    },
+    {
+      "type": "three_week",
+      "string": "3-4 times a week"
+    },
+    {
+      "type": "five_week",
+      "string": "5 or more times a week"
+    }
+  ],
+  "genderSeekingGenderTypes": [
+    {
+      "type": "female,male",
+      "string": "Woman looking for a man"
+    },
+    {
+      "type": "male,female",
+      "string": "Man looking for a woman"
+    },
+    {
+      "type": "female,female",
+      "string": "Woman looking for woman"
+    },
+    {
+      "type": "male,male",
+      "string": "Man looking for a man"
+    }
+  ],
+  "genderTypes": [
+    {
+      "type": "male",
+      "string": "Man"
+    },
+    {
+      "type": "female",
+      "string": "Woman"
+    }
+  ],
+  "haveChildrenTypes": [
+    {
+      "type": "none",
+      "string": "Have no children"
+    },
+    {
+      "type": "have_home",
+      "string": "Have children at home"
+    },
+    {
+      "type": "have_sometimes",
+      "string": "Sometimes have children at home"
+    },
+    {
+      "type": "have_elsewhere",
+      "string": "Have no children at home"
+    }
+  ],
+  "interestsActivitiesTagTypes": [
+    {
+      "type": "galleries_museums",
+      "string": "Art galleries/Museums"
+    },
+    {
+      "type": "astronomy",
+      "string": "Astronomy"
+    },
+    {
+      "type": "baking",
+      "string": "Baking"
+    },
+    {
+      "type": "board_games",
+      "string": "Board games"
+    },
+    {
+      "type": "cars",
+      "string": "Cars/Motorcycles"
+    },
+    {
+      "type": "ceramics",
+      "string": "Ceramics/Pottery"
+    },
+    {
+      "type": "collecting",
+      "string": "Collecting"
+    },
+    {
+      "type": "cooking",
+      "string": "Cooking"
+    },
+    {
+      "type": "writing",
+      "string": "Creative writing"
+    },
+    {
+      "type": "dancing",
+      "string": "Dancing"
+    },
+    {
+      "type": "dining",
+      "string": "Dining out"
+    },
+    {
+      "type": "drawing",
+      "string": "Drawing/Painting"
+    },
+    {
+      "type": "gaming",
+      "string": "Gaming"
+    },
+    {
+      "type": "gardening",
+      "string": "Gardening"
+    },
+    {
+      "type": "genealogy",
+      "string": "Genealogy"
+    },
+    {
+      "type": "language",
+      "string": "Language learning"
+    },
+    {
+      "type": "literature",
+      "string": "Literature"
+    },
+    {
+      "type": "metal_wood",
+      "string": "Metal/Woodwork"
+    },
+    {
+      "type": "movies",
+      "string": "Movies"
+    },
+    {
+      "type": "music",
+      "string": "Music"
+    },
+    {
+      "type": "photography",
+      "string": "Photography"
+    },
+    {
+      "type": "sewing",
+      "string": "Sewing/Knitting/Crafts"
+    },
+    {
+      "type": "social_media",
+      "string": "Social Media"
+    },
+    {
+      "type": "sports",
+      "string": "Sports"
+    },
+    {
+      "type": "theatre",
+      "string": "Theatre"
+    },
+    {
+      "type": "travel",
+      "string": "Travelling"
+    },
+    {
+      "type": "walking",
+      "string": "Walking"
+    }
+  ],
+  "interestsMoviesTagTypes": [
+    {
+      "type": "action",
+      "string": "Action"
+    },
+    {
+      "type": "adventure",
+      "string": "Adventure"
+    },
+    {
+      "type": "animation",
+      "string": "Animation"
+    },
+    {
+      "type": "biography",
+      "string": "Biography"
+    },
+    {
+      "type": "bollywood",
+      "string": "Bollywood"
+    },
+    {
+      "type": "comedy",
+      "string": "Comedy"
+    },
+    {
+      "type": "crime",
+      "string": "Crime"
+    },
+    {
+      "type": "documentary",
+      "string": "Documentary"
+    },
+    {
+      "type": "drama",
+      "string": "Drama"
+    },
+    {
+      "type": "fantasy",
+      "string": "Fantasy"
+    },
+    {
+      "type": "film_noir",
+      "string": "Film-Noir"
+    },
+    {
+      "type": "gardening",
+      "string": "Gardening"
+    },
+    {
+      "type": "history",
+      "string": "History"
+    },
+    {
+      "type": "horror",
+      "string": "Horror"
+    },
+    {
+      "type": "musical",
+      "string": "Musical"
+    },
+    {
+      "type": "mystery",
+      "string": "Mystery"
+    },
+    {
+      "type": "nature",
+      "string": "Nature"
+    },
+    {
+      "type": "reality",
+      "string": "Reality"
+    },
+    {
+      "type": "romance",
+      "string": "Romance"
+    },
+    {
+      "type": "sci_fi",
+      "string": "Sci-Fi"
+    },
+    {
+      "type": "sport",
+      "string": "Sport"
+    },
+    {
+      "type": "talk_show",
+      "string": "Talk-Show"
+    },
+    {
+      "type": "thriller",
+      "string": "Thriller"
+    },
+    {
+      "type": "war",
+      "string": "War"
+    },
+    {
+      "type": "western",
+      "string": "Western"
+    }
+  ],
+  "interestsMusicTagTypes": [
+    {
+      "type": "alternative",
+      "string": "Alternative"
+    },
+    {
+      "type": "blues",
+      "string": "Blues"
+    },
+    {
+      "type": "chillout",
+      "string": "Chillout"
+    },
+    {
+      "type": "classical",
+      "string": "Classical"
+    },
+    {
+      "type": "contemporary",
+      "string": "Contemporary"
+    },
+    {
+      "type": "country",
+      "string": "Country"
+    },
+    {
+      "type": "dance",
+      "string": "Dance"
+    },
+    {
+      "type": "easy",
+      "string": "Easy listening"
+    },
+    {
+      "type": "electro",
+      "string": "Electro"
+    },
+    {
+      "type": "folk",
+      "string": "Folk"
+    },
+    {
+      "type": "funk",
+      "string": "Funk/Soul"
+    },
+    {
+      "type": "gospel",
+      "string": "Gospel"
+    },
+    {
+      "type": "hiphop",
+      "string": "Hip Hop"
+    },
+    {
+      "type": "house",
+      "string": "House"
+    },
+    {
+      "type": "jazz",
+      "string": "Jazz"
+    },
+    {
+      "type": "latin",
+      "string": "Latin"
+    },
+    {
+      "type": "metal",
+      "string": "Metal/Hard rock"
+    },
+    {
+      "type": "musicals",
+      "string": "Musicals"
+    },
+    {
+      "type": "opera",
+      "string": "Opera"
+    },
+    {
+      "type": "pop",
+      "string": "Pop"
+    },
+    {
+      "type": "r&b",
+      "string": "R&B"
+    },
+    {
+      "type": "rap",
+      "string": "Rap"
+    },
+    {
+      "type": "reggae",
+      "string": "Reggae"
+    },
+    {
+      "type": "rock",
+      "string": "Rock"
+    },
+    {
+      "type": "60s",
+      "string": "60's"
+    },
+    {
+      "type": "70s",
+      "string": "70's"
+    },
+    {
+      "type": "80s",
+      "string": "80's"
+    },
+    {
+      "type": "90s",
+      "string": "90's"
+    }
+  ],
+  "interestsReadingTagTypes": [
+    {
+      "type": "action",
+      "string": "Action & Adventure"
+    },
+    {
+      "type": "biography",
+      "string": "Biography/Memoir"
+    },
+    {
+      "type": "classics",
+      "string": "Classics"
+    },
+    {
+      "type": "news",
+      "string": "Current affair/News"
+    },
+    {
+      "type": "comics",
+      "string": "Comics/Manga"
+    },
+    {
+      "type": "contemporary",
+      "string": "Contemporary"
+    },
+    {
+      "type": "crime",
+      "string": "Crime"
+    },
+    {
+      "type": "dystopia",
+      "string": "Dystopia"
+    },
+    {
+      "type": "erotica",
+      "string": "Erotica"
+    },
+    {
+      "type": "family_saga",
+      "string": "Family saga"
+    },
+    {
+      "type": "fantasy",
+      "string": "Fantasy"
+    },
+    {
+      "type": "gardening",
+      "string": "Gardening"
+    },
+    {
+      "type": "historical",
+      "string": "Historical fiction"
+    },
+    {
+      "type": "horror",
+      "string": "Horror"
+    },
+    {
+      "type": "humour",
+      "string": "Humour"
+    },
+    {
+      "type": "military",
+      "string": "Military & Espionage"
+    },
+    {
+      "type": "multicultural",
+      "string": "Multicultural"
+    },
+    {
+      "type": "mystery",
+      "string": "Mystery"
+    },
+    {
+      "type": "mythology",
+      "string": "Mythology"
+    },
+    {
+      "type": "nature",
+      "string": "Nature"
+    },
+    {
+      "type": "philosophy",
+      "string": "Philosophy"
+    },
+    {
+      "type": "religious",
+      "string": "Religious & Inspirational"
+    },
+    {
+      "type": "romance",
+      "string": "Romance"
+    },
+    {
+      "type": "sci_fi",
+      "string": "Sci-Fi"
+    },
+    {
+      "type": "literature",
+      "string": "Specialised literature"
+    },
+    {
+      "type": "self_help",
+      "string": "Self-help"
+    },
+    {
+      "type": "short_stories",
+      "string": "Short stories"
+    },
+    {
+      "type": "thrillers",
+      "string": "Thrillers & Suspense"
+    },
+    {
+      "type": "travel",
+      "string": "Travel"
+    }
+  ],
+  "interestsSportsTagTypes": [
+    {
+      "type": "afl",
+      "string": "AFL"
+    },
+    {
+      "type": "baseball",
+      "string": "Baseball"
+    },
+    {
+      "type": "basketball",
+      "string": "Basketball"
+    },
+    {
+      "type": "boxing",
+      "string": "Boxing"
+    },
+    {
+      "type": "cricket",
+      "string": "Cricket"
+    },
+    {
+      "type": "cycling",
+      "string": "Cycling"
+    },
+    {
+      "type": "extreme_sports",
+      "string": "Extreme sports"
+    },
+    {
+      "type": "fishing",
+      "string": "Fishing"
+    },
+    {
+      "type": "fitness",
+      "string": "Fitness/Gym"
+    },
+    {
+      "type": "golf",
+      "string": "Golf"
+    },
+    {
+      "type": "hiking",
+      "string": "Hiking/Trekking"
+    },
+    {
+      "type": "hockey",
+      "string": "Hockey"
+    },
+    {
+      "type": "horse_riding",
+      "string": "Horse riding"
+    },
+    {
+      "type": "ice-skating",
+      "string": "Ice skating/Skating"
+    },
+    {
+      "type": "jogging",
+      "string": "Jogging/Running"
+    },
+    {
+      "type": "Kayaking",
+      "string": "Kayaking"
+    },
+    {
+      "type": "martial_arts",
+      "string": "Martial arts"
+    },
+    {
+      "type": "motor_sports",
+      "string": "Motor sports"
+    },
+    {
+      "type": "netball",
+      "string": "Netball"
+    },
+    {
+      "type": "nrl",
+      "string": "NRL"
+    },
+    {
+      "type": "rock_climbing",
+      "string": "Rock climbing"
+    },
+    {
+      "type": "rowing",
+      "string": "Rowing"
+    },
+    {
+      "type": "rugby",
+      "string": "Rugby"
+    },
+    {
+      "type": "sailing",
+      "string": "Sailing"
+    },
+    {
+      "type": "skiing",
+      "string": "Skiing"
+    },
+    {
+      "type": "skateboarding",
+      "string": "Skateboarding"
+    },
+    {
+      "type": "snowboarding",
+      "string": "Snowboarding"
+    },
+    {
+      "type": "soccer",
+      "string": "Soccer"
+    },
+    {
+      "type": "sup_boarding",
+      "string": "SUP boarding"
+    },
+    {
+      "type": "surfing",
+      "string": "Surfing"
+    },
+    {
+      "type": "swimming",
+      "string": "Swimming"
+    },
+    {
+      "type": "squash",
+      "string": "Squash"
+    },
+    {
+      "type": "table_tennis",
+      "string": "Table tennis"
+    },
+    {
+      "type": "tennis",
+      "string": "Tennis"
+    },
+    {
+      "type": "volleyball",
+      "string": "Volleyball"
+    },
+    {
+      "type": "yoga",
+      "string": "Yoga/Pilates"
+    }
+  ],
+  "invalidLoginValidation": "Invalid login. Please check the details and try again.",
+  "locationSearchLabel": "Suburb, town or postcode",
+  "maritalTypes": [
+    {
+      "type": "never_married",
+      "string": "Never Married"
+    },
+    {
+      "type": "separated",
+      "string": "Separated"
+    },
+    {
+      "type": "divorced",
+      "string": "Divorced"
+    },
+    {
+      "type": "widowed",
+      "string": "Widowed"
+    },
+    {
+      "type": "other",
+      "string": "Other"
+    }
+  ],
+  "mobileNumberValidationText": "Please enter a valid mobile number.",
+  "monthsList": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "moviesLabel": "Movies & Series",
+  "musicLabel": "Music",
+  "petsTypes": [
+    {
+      "type": "havepets",
+      "string": "Have pets"
+    },
+    {
+      "type": "nopets",
+      "string": "Have no pets"
+    }
+  ],
+  "photoUploadRejectedTitle": "Your photo was rejected",
+  "pleaseEnterAValidCode": "Please enter a valid code.",
+  "politicsTypes": [
+    {
+      "type": "right",
+      "string": "Right wing"
+    },
+    {
+      "type": "left",
+      "string": "Left wing"
+    },
+    {
+      "type": "swing",
+      "string": "Swinging voter"
+    },
+    {
+      "type": "none",
+      "string": "No strong political beliefs"
+    }
+  ],
+  "readingTagLabel": "Reading",
+  "religionTypes": [
+    {
+      "type": "catholic",
+      "string": "Catholic"
+    },
+    {
+      "type": "anglican",
+      "string": "Anglican"
+    },
+    {
+      "type": "other_christian",
+      "string": "Other Christian"
+    },
+    {
+      "type": "born_again_christian",
+      "string": "Born Again Christian"
+    },
+    {
+      "type": "jewish",
+      "string": "Jewish"
+    },
+    {
+      "type": "islamic",
+      "string": "Islamic"
+    },
+    {
+      "type": "buddhist",
+      "string": "Buddhist"
+    },
+    {
+      "type": "hindu",
+      "string": "Hindu"
+    },
+    {
+      "type": "sikh",
+      "string": "Sikh"
+    },
+    {
+      "type": "new_age",
+      "string": "New age"
+    },
+    {
+      "type": "atheist",
+      "string": "Atheist"
+    },
+    {
+      "type": "agnostic",
+      "string": "Agnostic"
+    },
+    {
+      "type": "other",
+      "string": "Other religion"
+    }
+  ],
+  "smokerTypes": [
+    {
+      "type": "none",
+      "string": "Non-smoker"
+    },
+    {
+      "type": "social",
+      "string": "Occasional / social smoker"
+    },
+    {
+      "type": "quitting",
+      "string": "Trying to quit smoking"
+    },
+    {
+      "type": "regular",
+      "string": "Regular smoker"
+    }
+  ],
+  "sportsLabel": "Sports",
+  "userTakingABreakTitle": "Taking a Break",
+  "userTakingABreakDescription": "The user you are trying to reach is taking a break from the platform. Please check back later.",
+  "usernameTooltip": "Your username must be at least 4 characters long and should not be longer than 30.",
+  "usernameValidationError": "Your username can only contain letters and numbers, and must start with a letter.",
+  "userProfileDeletedTitle": "User is no longer active",
+  "userProfileDeletedDescription": "This profile has been deleted and is no longer active",
+  "userLockedTitle": "User is not available",
+  "userLockedDescription": "The user you are trying to reach is currently unavailable. Please try again later.",
+  "wantChildrenTypes": [
+    {
+      "type": "possibly",
+      "string": "Possibly want children"
+    },
+    {
+      "type": "yes",
+      "string": "Want children"
+    },
+    {
+      "type": "no",
+      "string": "Don't want children"
+    }
+  ]
+}
