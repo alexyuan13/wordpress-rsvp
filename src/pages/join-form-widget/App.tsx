@@ -49,7 +49,7 @@ interface LocationState {
 }
 
 const graffle = Graffle.create({
-  schema: "https://api.qa.r2.rsvphost.com.au/graphql",
+  schema: "https://api.r2.rsvphost.com.au",
 });
 
 type Document = TypedDocument.String<
