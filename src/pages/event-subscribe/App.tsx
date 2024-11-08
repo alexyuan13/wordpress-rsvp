@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import EventSubscribeModal from "./EventSubscribeModal";
 
 export default function App() {

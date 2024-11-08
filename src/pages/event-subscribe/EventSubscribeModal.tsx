@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Graffle } from "graffle";
 
 import Modal from "./Modal";
@@ -198,6 +198,7 @@ const Container = styled.div`
     box-sizing: border-box;
   }
 `;
+
 const SubTitle = styled("div")(() =>
   mq({
     minHeight: 32,
@@ -218,7 +219,7 @@ const InputContainer = styled("div")({
 const ButtonContainer = styled("div")(
   mq({
     display: "flex",
-    justifyContent: ["center", "start"],
+    justifyContent: ["center"],
     marginTop: [25, 15],
   })
 );
